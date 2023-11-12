@@ -1,4 +1,4 @@
-# CMakeFilesBoilerPlate
+# CMakeBoilerPlate
 
 
 This is a simple program to quickly generate  "CMakeFiles.txt" boilerplate.
@@ -30,8 +30,8 @@ Adding program to your system Path (Linux):
 
  - /usr/bin method
  
-	    # mv CMakeFilesBoilerplate /usr/local/bin
-	    # chmod +x /usr/local/bin/CMakeFilesBoilerplate
+	    # mv CMakeBoilerplate /usr/local/bin
+	    # chmod +x /usr/local/bin/CMakeBoilerplate
 
 - local method:
 

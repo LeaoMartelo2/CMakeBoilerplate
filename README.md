@@ -33,7 +33,7 @@ Adding program to your system Path (Linux):
 	    # mv CMakeFilesBoilerplate /usr/local/bin
 	    # chmod +x /usr/local/bin/CMakeFilesBoilerplate
 
--local method:
+- local method:
 
 Use any text editor of your liking to modify `~/.bashrc` (or any shell that you use) and add the line:
 

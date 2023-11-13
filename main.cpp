@@ -23,7 +23,7 @@ int main(int argc, char** argv)
 
 	outputFile <<"set (source_dir \"${PROJECT_SOURCE_DIR}/src\")"<<std::endl;
 
-	outputFile <<"file (GLOB source_files \"${source_dir}/*.cpp\")"<<std::endl;
+	outputFile <<"file (GLOB source_files \"${source_dir}/*.cpp\" \"src/include/*.cpp\")"<<std::endl;
 
 	outputFile <<"add_executable (${PROJECT_NAME} ${source_files})";
 
